@@ -1,0 +1,260 @@
+body {
+background-color: #eef8ff !important;
+}
+
+/*------------------- Meny ----------------*/
+
+.link{
+	color: white !important;
+}
+
+.dropdown-menu {
+	background-color: #1f4060 !important;
+}	
+
+/* mouse over link */
+a:hover {
+	background-color: #0c1a27 !important;
+}
+
+/* selected link */
+a:active {
+    background-color: #1f4060 !important;
+}
+
+.navbar-brand:hover {
+	background-color: #0c1a27 !important;
+}
+
+article {
+	margin-left: 7%;
+	margin-right: 7%;
+}
+/* -------------------------meny ferdig -----------------------*/
+
+
+/*------------------- informasjonsboksene på siden -------------------------*/
+.col-sm-1 {
+	max-width: 5%;
+	max-height: 5%;
+	visibility: hidden;
+}
+
+.col-sm-2 {
+	padding:1%;
+	margin-bottom: 5%;
+	-webkit-box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+	box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+	background-color: white;
+}
+
+.col-sm-3 {
+	padding:1%;
+	margin-bottom: 5%;
+	-webkit-box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+	box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+	background-color: white;
+}
+
+.col-sm-9 {
+	padding:2%;
+	-webkit-box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+	box-shadow: 0px 0px 28px 3px rgba(0,0,0,0.22);
+ 	/*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);*/
+ 	background-color: white;
+}
+
+.col-sm-12 {
+	height: 75px;
+	border-bottom: 1px solid grey;
+	
+}
+
+/* ------------ sponsor bilder ---------------- */
+.rent_a_wreck {
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: 100%;
+}
+
+.grasrotandelen {
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 50%;
+}
+
+.sparebank1 {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.fargerike {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.sport1 {
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: 100%;
+}
+
+.strandman {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 110%;
+}
+
+.sponsorme {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 110%;	
+}
+
+.dugnaden {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 110%;	
+}
+
+.linje {
+	border-bottom: 1px solid black;
+	width: 100%;
+	display: inline-block;
+	visibility: collapse;
+}
+
+/*--------------- sponsor ferdig --------------*/
+
+/* ------------------- innlegg ------------------*/
+.ck-editor__editable 
+{
+	min-height: 150px;
+}
+
+.checkbox
+{
+	width:20px;
+	height: 20px;
+}
+
+/*----------------------------------- Mobilvennlig ------------------------------------*/
+@media only screen and (max-width : 500px) {
+	nav {
+		display:inline;
+	}
+	
+	.navbar-header {
+		display:inline;
+	}
+	
+	.rent_a_wreck {
+		width: 70%;
+		height: 70%;
+	}
+	
+	.grasrotandelen {
+		width: 70%;
+		height: 50%;
+	}
+
+	.sparebank1 {
+		width: 70%;
+		height: 70%;
+		}
+
+	.fargerike {
+		width: 70%;
+		height: 70%;
+	}
+
+	.sport1 {
+		width: 70%;
+		height: 70%;
+	}
+
+	.strandman {
+		width: 70%;
+		height: 70%;
+	}
+	
+	body {
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+}
+
+/*---------------------- mobil ferdig -------------------*/
+/*-----------------------footer ------------------*/
+
+.copyright{
+	padding: 1%;
+}
+
+footer{
+	margin-top: 2%;
+     background-color: #12273b;
+     padding:30px 0px;
+     border-bottom: 1px solid black;
+     border-top: 1px solid black;
+}	       
+
+.footer_logo{
+	 max-width: 70%;
+    height: auto;
+}
+
+.address span , .menu span{
+   color: #FFF; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.address li a , .menu li a{
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.address li, .menu li{
+    margin:20px 0px;
+    list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+    color: #da3e44;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.address .fa{
+    color: #da3e44;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+/* facebook */
+.fa:hover {
+	opacity: 0.7;
+}
